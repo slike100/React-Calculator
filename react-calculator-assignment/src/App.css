@@ -1,0 +1,164 @@
+body {
+  height: 100%;
+}
+
+#biggerContainer{
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+}
+
+#container {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: 450px;
+  margin: auto;
+  height: 700px;
+  grid-row: 2 / 12;
+}
+
+button{
+  color: rgb(237, 237, 237);
+  border: 1px solid rgb(103, 104, 105);
+  font-size: 2em;
+  font-weight: 200;
+}
+
+#display {
+  display: grid;
+  grid-column: 1 / 5;
+  text-align: right;
+  align-self: center;
+  padding-right: 10px;
+  /* padding-top: 20px; */
+  height: 100%;
+  background-color: rgb(103, 104, 105);
+  margin: none;
+  color: rgb(237, 237, 237);
+  font-weight: 200;
+  font-size: 3em;
+}
+
+#AC {
+  grid-row: 2;
+  display: grid;
+  background-color: rgb(118, 117, 119);
+}
+
+#plusMinus{
+  grid-row: 2;
+  display: grid;
+  background-color: rgb(118, 117, 119);
+}
+
+#percent{
+  display: grid;
+  grid-row: 2;
+  background-color: rgb(118, 117, 119);
+}
+
+#divide{
+  display: grid;
+  grid-row: 2;
+  background-color: rgb(243, 162, 60);
+}
+
+#seven {
+  display: grid;
+  grid-row: 3;
+  background-color: rgb(141, 141, 142); 
+}
+
+#eight{
+  display: grid;
+  grid-row: 3;
+  background-color: rgb(141, 141, 142); 
+}
+
+#nine{
+  display: grid;
+  grid-row: 3;
+  background-color: rgb(141, 141, 142); 
+}
+
+#times{
+  display: grid;
+  grid-row: 3;  
+  background-color: rgb(243, 162, 60);
+}
+
+#four {
+  display: grid;
+  grid-row: 4;
+  background-color: rgb(141, 141, 142); 
+}
+
+#five{
+  display: grid;
+  grid-row: 4;
+  background-color: rgb(141, 141, 142); 
+}
+
+#six{
+  display: grid;
+  grid-row: 4;
+  background-color: rgb(141, 141, 142); 
+}
+
+#minus{
+  display: grid;
+  grid-row: 4; 
+  background-color: rgb(243, 162, 60);
+}
+
+#one {
+  display: grid;
+  grid-row: 5; 
+  background-color: rgb(141, 141, 142); 
+}
+
+#two{
+  display: grid;
+  grid-row: 5;
+  background-color: rgb(141, 141, 142); 
+}
+
+#three{
+  display: grid;
+  grid-row: 5;
+  background-color: rgb(141, 141, 142); 
+}
+
+#add{
+  display: grid;
+  grid-row: 5;  
+  background-color: rgb(243, 162, 60);
+}
+
+#zero{
+  display: grid;
+  grid-row: 6;
+  grid-column: 1 / 3;
+  background-color: rgb(141, 141, 142); 
+  text-align: left;
+  padding-left: 43px; 
+}
+
+#period{
+  display: grid;
+  grid-row: 6; 
+  background-color: rgb(141, 141, 142); 
+}
+
+#equals{
+  display: grid;
+  grid-row: 6; 
+  background-color: rgb(243, 162, 60);
+}
+
+#aboutPage{
+  margin: 5%;
+  display: grid;
+  grid-row: 2 / 12;
+}
